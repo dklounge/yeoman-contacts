@@ -16,7 +16,8 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
+  // Tests on the Main controller
+  it('should say AngularJS Contacts', function () {
+    expect(scope.App.name).toEqual('AngularJS Contacts');
   });
 });

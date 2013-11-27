@@ -15,6 +15,10 @@ angular.module('yeomanContactsAppApp', [
         templateUrl: 'views/home.html',
         controller: 'HomeCtrl'
       })
+      .when('/home', {
+        templateUrl: 'views/home.html',
+        controller: 'HomeCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
