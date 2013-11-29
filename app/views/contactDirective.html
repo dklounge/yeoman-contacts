@@ -1,5 +1,20 @@
 <div id="contact-{{$index}}" class="well well-small clearfix">
   <a class="pull-left thumb" ng-href="/details/{{$index}}">
-
+    <img class="media-object" ng-src="{{item.avatar}}"
+          src="http://placehold.it/100x100&text=Image"
+          alt="Contact {{item.name}} Image" />
   </a>
+  <div class="media-body">
+    <h4 class="media-heading">
+      {{item.name}}
+    </h4>
+    <p class="meta">
+      <ul class="unstyled">
+        <li class="phone"><a ng-href="tel:{{item.phone}}">
+          <i class="icon-phone"></i> {{item.phone | tel}} </a></li>
+        <li class="email"><a ng-href="mailto:{{item:email}}">
+          <i class="icon-envelop"></i> {{item.email}}</a></li>
+      </ul>
+    </p>
+  </div>
 </div>
