@@ -3,7 +3,7 @@
 describe('Directive: contact', function () {
 
   // load the directive's module
-  beforeEach(module('yeomanContactsAppApp'));
+  beforeEach(module('yeomanContactsApp'));
 
   var element,
     scope;

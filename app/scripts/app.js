@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yeomanContactsAppApp', [
+angular.module('yeomanContactsApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize'

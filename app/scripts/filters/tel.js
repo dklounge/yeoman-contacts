@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yeomanContactsAppApp')
+angular.module('yeomanContactsApp')
   .filter('tel', function () {
     return function (input) {
       var pattern = /\b[1]?[(-|\(|\.|\s)]?([\d]{3})(-|\)|\.|\s)[\s]?

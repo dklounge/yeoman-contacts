@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yeomanContactsAppApp')
+angular.module('yeomanContactsApp')
   .directive('contact', function () {
     return {
       template: 'views/contactDirective.html',

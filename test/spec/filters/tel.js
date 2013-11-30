@@ -3,7 +3,7 @@
 describe('Filter: tel', function () {
 
   // load the filter's module
-  beforeEach(module('yeomanContactsAppApp'));
+  beforeEach(module('yeomanContactsApp'));
 
   // initialize a new instance of the filter before each test
   var tel;

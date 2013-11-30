@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yeomanContactsAppApp')
+angular.module('yeomanContactsApp')
   .controller('MainCtrl', function ($scope, $rootScope, ContactsService) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
@@ -38,6 +38,9 @@ angular.module('yeomanContactsAppApp')
       selectContact: function (obj) {
         $rootScope.App.contact = obj;
         $rootScope.selectContact = obj;
+      },
+      saveContact: function (obj) {
+
       },
       removeContact: function (obj) {
 
